@@ -90,3 +90,7 @@ const lista = ["arroz", "feijão", "macarrão", "leite"]
 console.log(lista[0])
 const lista2 = new Array("banana", "morango");
 let x = lista2[1];
+const pessoa =["Dimitri", "teixeira",30];//array
+const pessoa2 = {nome: "Dimitri", sobrenome:"Teixeira", idade:30}//Objeto
+pessoa.nome;
+pessoa[0];
