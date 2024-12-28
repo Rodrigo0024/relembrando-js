@@ -88,3 +88,5 @@ function limpaTexto(){
 
 const lista = ["arroz", "feijão", "macarrão", "leite"]
 console.log(lista[0])
+const lista2 = new Array("banana", "morango");
+let x = lista2[1];
