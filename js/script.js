@@ -86,7 +86,7 @@ function limpaTexto(){
 
 //arrays 
 
-const lista = ["arroz", "feijão", "macarrão", "leite"]
+const lista = ["arroz", "feijão", "macarrão", "leite"];
 console.log(lista[0])
 const lista2 = new Array("banana", "morango");
 let x = lista2[1];
@@ -96,3 +96,6 @@ pessoa.nome;
 pessoa[0];
 
 alert(pessoa[pessoa.length-1]);//Ultimo item do array
+pessoa.push("Brasileiro");
+console.log(pessoa);
+Array.isArray(pessoa);//verifica se é um array 
