@@ -83,3 +83,8 @@ function adicionaTexto(){
 function limpaTexto(){
     document.getElementById("campoTexto").value =" ";
 }
+
+//arrays 
+
+const lista = ["arroz", "feijão", "macarrão", "leite"]
+console.log(lista[0])
