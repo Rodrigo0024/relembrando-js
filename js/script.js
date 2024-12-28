@@ -95,4 +95,4 @@ const pessoa2 = {nome: "Dimitri", sobrenome:"Teixeira", idade:30}//Objeto
 pessoa.nome;
 pessoa[0];
 
-alert(pessoa.length-1)//Ultimo item do array
+alert(pessoa[pessoa.length-1]);//Ultimo item do array
