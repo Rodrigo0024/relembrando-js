@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Revendo js</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            body{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body onmousedown = "alert('clicou na tela')">
+       
+      
+       <h1> Relembrando java script :) </h1>
+       <p id = "texto"> </p>
+       <p>
+            <script>
+                document.write("Oi <u> texto escrito com o documente.write</u><br>");
+                document.write(5+5);
+            </script>
+       </p>
+       <br><br>
+       <div id= "teste" onmousemove = "adicionaTexto()" onmouseout="viraAzul()" onmouseover = "viraVermelho()" style = "margin: auto auto; width:80%; height:200px; background:blue"></div>
+       <input  value= "Ja vem com texto" onfocus="limpaTexto()" id ="campoTexto" style="padding:80px; font-size:40px;" type = "text"
+        placeholder ="Digíte alguma coisa">
+       
+       <button onclick ="alertHello()"> Clique aqui</button>
+       <button onclick ="eventoClick()">Muda cor de fundo</button>
+       <button ondblclick ="eventoDblclick()">Clique duplo</button>
+        <script src="js/script.js">
+        </script>
+    </body>
+</html>
